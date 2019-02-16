@@ -13,14 +13,9 @@ Notes
 ------
 
 * All switches are controlled by Arduino Pro Micro or any clone with simalar form factor 
-* All of the mechanical key switches are all programed in Eagle as Cherry MX keys 
+* All of the mechanical key switches are all programed in EAGLE as Cherry MX keys 
 * The integrated reset switch may be changed out for a momentary button in later revisions
 * 3D files for case TBD
-
-Code
-----
-
-The .zip file for the repository includes the Arduino IDE file.
 
 For Contributors
 ------------------
