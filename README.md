@@ -8,11 +8,12 @@ Features
 * Controlled by Arduino Pro Micro
 * Dedicated reset switch/button
 * Includes dedicated mounting holes
+* Can include LEDs if wanted
 
 Notes
 ------
 
-* All switches are controlled by Arduino Pro Micro or any clone with simalar form factor 
+* All switches are controlled by Arduino Pro Micro or any clone with the same form factor 
 * All of the mechanical key switches are all programed in EAGLE as Cherry MX keys 
 * 3D files for case TBD
 
