@@ -14,8 +14,9 @@ Notes
 ------
 
 * All switches are controlled by Arduino Pro Micro or any clone with the same form factor 
-* All of the mechanical key switches are all programed in EAGLE as Cherry MX keys 
-* 3D files for case TBD
+* All of the mechanical key switches are all programed in EAGLE as Cherry MX keys
+* Machined aluminium base file for keypad in MasterCAM file format and other formats coming in the next few weeks
+* 3D files for case currently in the works
 
 For Contributors
 ------------------
