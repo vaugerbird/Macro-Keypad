@@ -1,19 +1,5 @@
-// Original Code made by Foster Phillips
-// Original Instructable: https://www.instructables.com/id/Custom-Macro-Mechanical-Keypad/
-
-// Edited for Macro Keypad by Preston Crowe 
+// Macro Keypad by Preston Crowe 
 // Github Repository: https://github.com/PrestonCrowe/Macro-Keypad/
-
-//Editor Info
-// Edited February 2019
-// Github: PrestonCrowe
-// Instagram: @deeznutty2004
-
-
-//Original Creator Info
-// March-April 2018
-// Created for Instuctables, username: FosterP
-// Instagram: Lego_Rocket_08
 
 #include <Mouse.h>
 #include <Keyboard.h>
