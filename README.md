@@ -5,7 +5,7 @@ Features
 ---------
 
 * Features 6 programable macro keys
-* Controlled by Arduino Pro Micro
+* Controlled by ATMega32u4 burned with Arduino bootloader
 * Dedicated reset switch/button
 * Includes mounting holes
 
