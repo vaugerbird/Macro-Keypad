@@ -6,7 +6,7 @@ Features
 
 * Features 6 programable macro keys
 * Controlled by ATMega32u4 burned with Arduino bootloader
-* USB Type C, because it is better than everything elese.
+* USB Type C at USB 2.0 (best connector)
 
 Notes
 ------
