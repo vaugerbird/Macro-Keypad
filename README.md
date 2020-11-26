@@ -23,4 +23,4 @@ TODO
 * Push new files when USB port is fixed
 * Create code for new board
 * Add ATMega pinout to silkscreen
-* Add programming header
+* Add programming header or pads
