@@ -1,12 +1,12 @@
 # Macro-Keypad
-Designed by Preston Crowe
+Designed by vaugerbird
 
 Features
 ---------
 
 * Features 6 programable macro keys
-* Controlled by ATMega32u4 burned with Arduino bootloader
-* USB Type C at USB 2.0 (best connector)
+* Controlled by ATMega32u4 that can be burned with Arduino bootloader
+* Uses a USB Type C connector at USB 2.0 speeds
 
 Notes
 ------
@@ -17,6 +17,7 @@ Notes
 
 TODO
 ------
-* Route switch airwires
+* ~~Route switch airwires~~
 * Work on ProMicro PCB
 * ~~Figure out what to do for USB port CC pins~~
+* Push new files when USB port is fixed
