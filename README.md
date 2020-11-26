@@ -6,8 +6,7 @@ Features
 
 * Features 6 programable macro keys
 * Controlled by ATMega32u4 burned with Arduino bootloader
-* Dedicated reset switch/button
-* Includes mounting holes
+* USB Type C, because it is better than everything elese.
 
 Notes
 ------
