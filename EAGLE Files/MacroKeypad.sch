@@ -272,6 +272,26 @@
 <wire x1="-3.5" y1="3" x2="-3" y2="3.5" width="0.1" layer="51"/>
 <circle x="-3.875" y="3.25" radius="0.125" width="0.25" layer="25"/>
 </package>
+<package name="LL3303F065QG">
+<description>&lt;b&gt;LL3303F065QG-3&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.2" y="-2.25" dx="1.6" dy="1.4" layer="1"/>
+<smd name="2" x="4.2" y="-2.25" dx="1.6" dy="1.4" layer="1"/>
+<smd name="3" x="-4.2" y="2.25" dx="1.6" dy="1.4" layer="1"/>
+<smd name="4" x="4.2" y="2.25" dx="1.6" dy="1.4" layer="1"/>
+<text x="-0.3" y="5.08" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.3" y="-5.08" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3.1" y1="3.25" x2="3.1" y2="3.25" width="0.2" layer="51"/>
+<wire x1="3.1" y1="3.25" x2="3.1" y2="-3.25" width="0.2" layer="51"/>
+<wire x1="3.1" y1="-3.25" x2="-3.1" y2="-3.25" width="0.2" layer="51"/>
+<wire x1="-3.1" y1="-3.25" x2="-3.1" y2="3.25" width="0.2" layer="51"/>
+<wire x1="-3.1" y1="3.25" x2="3.1" y2="3.25" width="0.1" layer="21"/>
+<wire x1="3.1" y1="3.25" x2="3.1" y2="-3.25" width="0.1" layer="21"/>
+<wire x1="3.1" y1="-3.25" x2="-3.1" y2="-3.25" width="0.1" layer="21"/>
+<wire x1="-3.1" y1="-3.25" x2="-3.1" y2="3.25" width="0.1" layer="21"/>
+<wire x1="-1.89" y1="-2" x2="-1.89" y2="-2.2" width="0.2" layer="21" curve="180"/>
+<wire x1="-1.89" y1="-2.2" x2="-1.89" y2="-2" width="0.2" layer="21" curve="180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ATMEGA32U4-MU">
@@ -326,6 +346,18 @@
 <pin name="PF7_(ADC7/TDI)" x="48.26" y="27.94" length="middle" rot="R270"/>
 <pin name="GND_3" x="50.8" y="27.94" length="middle" rot="R270"/>
 <pin name="VCC_2" x="53.34" y="27.94" length="middle" rot="R270"/>
+</symbol>
+<symbol name="LL3303F065QG">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="-2.54" length="middle"/>
+<pin name="2" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="3" x="0" y="0" length="middle"/>
+<pin name="4" x="20.32" y="0" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -392,6 +424,33 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ATMEGA32U4-MU
 <attribute name="MANUFACTURER_PART_NUMBER" value="ATMEGA32U4-MU" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="556-ATMEGA32U4-MU" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/ATMEGA32U4-MU?qs=JV7lzlMm3yJYRpi0cY3cKw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LL3303F065QG" prefix="S">
+<description>&lt;b&gt;Pushbutton Switches 50mA 12VDC F065 7.0mm Gull Wing&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://spec_sheets.e-switch.com/specs/P090008.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LL3303F065QG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LL3303F065QG">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Pushbutton Switches 50mA 12VDC F065 7.0mm Gull Wing" constant="no"/>
+<attribute name="HEIGHT" value="3.4mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="E-Switch" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LL3303F065QG" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="612-LL3303F065QG" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/E-Switch/LL3303F065QG?qs=QtyuwXswaQjocAyEnLyPSg%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4919,6 +4978,7 @@ Metric Code Size 5664</description>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="RESET" library="SamacSys_Parts" deviceset="LL3303F065QG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4980,7 +5040,7 @@ Metric Code Size 5664</description>
 <attribute name="VALUE" x="-144.78" y="111.76" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND4" gate="1" x="-93.98" y="45.72" smashed="yes">
-<attribute name="VALUE" x="-96.52" y="43.18" size="1.778" layer="96"/>
+<attribute name="VALUE" x="-93.98" y="40.64" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="-45.72" y="93.98" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-43.18" y="91.44" size="1.778" layer="96" rot="R90"/>
@@ -4990,6 +5050,9 @@ Metric Code Size 5664</description>
 </instance>
 <instance part="GND7" gate="1" x="-78.74" y="149.86" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-76.2" y="152.4" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="RESET" gate="G$1" x="-106.68" y="33.02" smashed="yes">
+<attribute name="NAME" x="-100.33" y="25.4" size="1.778" layer="95" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -5018,6 +5081,12 @@ Metric Code Size 5664</description>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND_1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="RESET" gate="G$1" pin="2"/>
+<wire x1="-86.36" y1="30.48" x2="-83.82" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="30.48" x2="-83.82" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="38.1" x2="-93.98" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="38.1" x2="-93.98" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-93.98" y="48.26"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND_2"/>
@@ -5134,17 +5203,17 @@ Metric Code Size 5664</description>
 <wire x1="-96.52" y1="48.26" x2="-96.52" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="SW1" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="PIN-1"/>
 <wire x1="-5.08" y1="83.82" x2="-20.32" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="83.82" x2="-20.32" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="(SDA/INT1)_PD1"/>
-<wire x1="-20.32" y1="45.72" x2="-83.82" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="45.72" x2="-83.82" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="45.72" x2="-78.74" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="(TXD1/INT3)_PD3"/>
+<wire x1="-78.74" y1="45.72" x2="-78.74" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="SW2" class="0">
 <segment>
 <pinref part="SW2" gate="G$1" pin="PIN-1"/>
 <wire x1="33.02" y1="83.82" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
@@ -5154,44 +5223,54 @@ Metric Code Size 5664</description>
 <wire x1="-81.28" y1="43.18" x2="-81.28" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="SW3" class="0">
 <segment>
 <pinref part="SW3" gate="G$1" pin="PIN-1"/>
 <wire x1="68.58" y1="83.82" x2="55.88" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="83.82" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="(TXD1/INT3)_PD3"/>
-<wire x1="55.88" y1="40.64" x2="-78.74" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="40.64" x2="-78.74" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="40.64" x2="-83.82" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="(SDA/INT1)_PD1"/>
+<wire x1="-83.82" y1="48.26" x2="-83.82" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="SW4" class="0">
 <segment>
 <pinref part="SW4" gate="G$1" pin="PIN-1"/>
 <wire x1="-5.08" y1="60.96" x2="-35.56" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="60.96" x2="-35.56" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PD4_(ICP1/ADC8)"/>
-<wire x1="-35.56" y1="99.06" x2="-48.26" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="60.96" x2="-35.56" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PD6_(T1/!OC4D!/ADC9)"/>
+<wire x1="-35.56" y1="101.6" x2="-48.26" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="SW5" class="0">
 <segment>
 <pinref part="SW5" gate="G$1" pin="PIN-1"/>
 <wire x1="33.02" y1="60.96" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="(XCK1/!CTS)_PD5"/>
-<wire x1="30.48" y1="38.1" x2="-76.2" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-76.2" y1="38.1" x2="-76.2" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="38.1" x2="-40.64" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PD4_(ICP1/ADC8)"/>
+<wire x1="-48.26" y1="99.06" x2="-40.64" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="99.06" x2="-40.64" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="SW6" class="0">
 <segment>
 <pinref part="SW6" gate="G$1" pin="PIN-1"/>
 <wire x1="68.58" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="60.96" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="35.56" x2="-38.1" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="35.56" x2="-38.1" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PD6_(T1/!OC4D!/ADC9)"/>
-<wire x1="-38.1" y1="101.6" x2="-48.26" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="35.56" x2="-76.2" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="(XCK1/!CTS)_PD5"/>
+<wire x1="-76.2" y1="35.56" x2="-76.2" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RESET" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="!RESET"/>
+<wire x1="-99.06" y1="48.26" x2="-99.06" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="38.1" x2="-109.22" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="RESET" gate="G$1" pin="1"/>
+<wire x1="-109.22" y1="38.1" x2="-109.22" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="30.48" x2="-106.68" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

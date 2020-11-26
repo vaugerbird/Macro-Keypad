@@ -19,4 +19,4 @@ TODO
 ------
 * Route switch airwires
 * Work on ProMicro PCB
-* Figure out what to do for USB port CC pins
+* ~~Figure out what to do for USB port CC pins~~
