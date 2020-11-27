@@ -22,5 +22,5 @@ TODO
 * ~~Figure out what to do for USB port CC pins~~
 * Push new files when USB port is fixed
 * Create code for new board
-* Add ATMega pinout to silkscreen
+* ~~Add ATMega pinout to silkscreen~~
 * ~~Add programming header or pads~~
