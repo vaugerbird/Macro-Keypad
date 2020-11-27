@@ -24,3 +24,4 @@ TODO
 * Create code for new board
 * ~~Add ATMega pinout to silkscreen~~
 * ~~Add programming header or pads~~
+* Possibly make custom board files for Arduino IDE
