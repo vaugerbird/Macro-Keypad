@@ -158,12 +158,12 @@
 </layers>
 <board>
 <plain>
-<text x="39.411271875" y="67.6275" size="0.8128" layer="25" font="vector">Switch 1</text>
-<text x="57.191271875" y="67.6275" size="0.8128" layer="25" font="vector">Switch 2</text>
-<text x="90.805" y="67.268728125" size="0.8128" layer="25" font="vector" rot="R270">Switch 3</text>
-<text x="44.808771875" y="33.02" size="0.8128" layer="25" font="vector">Switch 4</text>
-<text x="62.588771875" y="33.02" size="0.8128" layer="25" font="vector">Switch 5</text>
-<text x="80.368771875" y="33.02" size="0.8128" layer="25" font="vector">Switch 6</text>
+<text x="39.411271875" y="67.6275" size="0.8128" layer="25" font="vector">Switch 1 - D1</text>
+<text x="57.191271875" y="67.6275" size="0.8128" layer="25" font="vector">Switch 2 - D0</text>
+<text x="90.4875" y="67.268728125" size="0.8128" layer="25" font="vector" rot="R270">Switch 3 - D2</text>
+<text x="39.411271875" y="33.17875" size="0.8128" layer="25" font="vector">Switch 4 - D12</text>
+<text x="57.191271875" y="33.17875" size="0.8128" layer="25" font="vector">Switch 5 - D4</text>
+<text x="74.971271875" y="33.17875" size="0.8128" layer="25" font="vector">Switch 6 - D6</text>
 <wire x1="37.465" y1="29.21" x2="92.075" y2="29.21" width="0.2032" layer="20"/>
 <wire x1="92.075" y1="29.21" x2="95.25" y2="32.385" width="0.2032" layer="20" curve="90"/>
 <wire x1="37.465" y1="75.565" x2="92.075" y2="75.565" width="0.2032" layer="20"/>
@@ -177,7 +177,7 @@
 <hole x="37.465" y="32.385" drill="2.99999375"/>
 <hole x="37.465" y="72.39" drill="2.99999375"/>
 <text x="43.18" y="72.39" size="1.778" layer="25" font="vector">Macro Keypad</text>
-<text x="41.275" y="69.469" size="1.27" layer="25" font="vector">Designed by vaugerbird</text>
+<text x="41.275" y="70.26275" size="1.27" layer="25" font="vector">Designed by vaugerbird</text>
 <text x="88.265" y="30.48" size="1.4224" layer="26" font="vector" rot="MR0">Rev 2</text>
 <text x="80.645" y="30.4165" size="1.27" layer="26" font="vector" rot="MR0">https://github.com/vaugerbird/Macro-Keypad</text>
 </plain>
@@ -915,16 +915,19 @@ design rules under a new name.</description>
 </signal>
 <signal name="SW6">
 <contactref element="SW6" pad="SW1"/>
-<contactref element="IC2" pad="22"/>
 <wire x1="78.74" y1="44.45" x2="73.9775" y2="49.2125" width="0.1524" layer="1"/>
 <wire x1="55.0037" y1="55.1688" x2="55.0037" y2="61.8896" width="0.1524" layer="1"/>
-<wire x1="53.975" y1="62.9183" x2="53.975" y2="65.0875" width="0.1524" layer="1"/>
-<wire x1="55.0037" y1="61.8896" x2="53.975" y2="62.9183" width="0.1524" layer="1"/>
+<wire x1="52.705" y1="64.1883" x2="52.705" y2="69.05625" width="0.1524" layer="1"/>
+<wire x1="55.0037" y1="61.8896" x2="52.705" y2="64.1883" width="0.1524" layer="1"/>
 <wire x1="73.9775" y1="49.2125" x2="60.96" y2="49.2125" width="0.1524" layer="1"/>
 <wire x1="60.96" y1="49.2125" x2="55.0037" y2="55.1688" width="0.1524" layer="1"/>
-<via x="53.975" y="65.0875" extent="1-16" drill="0.35" shape="octagon"/>
-<wire x1="55.285" y1="66.45" x2="55.285" y2="66.3975" width="0.1524" layer="16"/>
-<wire x1="55.285" y1="66.3975" x2="53.975" y2="65.0875" width="0.1524" layer="16"/>
+<contactref element="IC2" pad="27"/>
+<wire x1="52.705" y1="69.05625" x2="52.07" y2="69.69125" width="0.1524" layer="1"/>
+<wire x1="52.07" y1="69.69125" x2="52.07" y2="69.85" width="0.1524" layer="1"/>
+<via x="52.07" y="69.85" extent="1-16" drill="0.35" shape="octagon"/>
+<wire x1="52.07" y1="69.85" x2="52.86375" y2="69.85" width="0.1524" layer="16"/>
+<wire x1="53.36375" y1="69.35" x2="54.385" y2="69.35" width="0.1524" layer="16"/>
+<wire x1="52.86375" y1="69.85" x2="53.36375" y2="69.35" width="0.1524" layer="16"/>
 </signal>
 <signal name="RESET">
 <contactref element="IC2" pad="13"/>

@@ -6358,9 +6358,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="SW6" gate="G$1" pin="PIN-1"/>
 <wire x1="68.58" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="60.96" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="35.56" x2="-76.2" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="(XCK1/!CTS)_PD5"/>
-<wire x1="-76.2" y1="35.56" x2="-76.2" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="35.56" x2="-30.48" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PD7_(T0/OC4D/ADC10)"/>
+<wire x1="-48.26" y1="104.14" x2="-30.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="104.14" x2="-30.48" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
