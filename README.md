@@ -17,4 +17,4 @@ Notes
 
 TODO
 ------
-To view what needs to be done and what has been done, check out my (Trello)[https://trello.com/b/sij1VVpk/macro-keypad] board!
+To view what needs to be done and what has been done, check out my [Trello](https://trello.com/b/sij1VVpk/macro-keypad) board!
