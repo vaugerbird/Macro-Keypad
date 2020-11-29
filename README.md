@@ -11,7 +11,7 @@ Features
 Notes
 ------
 
-* All of the mechanical key switches are all programed in EAGLE as Cherry MX keys or similar footprint
+All of the mechanical key switches are all programed in EAGLE as Cherry MX keys or similar footprint
 
 
 TODO
