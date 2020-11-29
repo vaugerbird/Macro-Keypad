@@ -17,11 +17,4 @@ Notes
 
 TODO
 ------
-* ~~Route switch airwires~~
-* Work on ProMicro PCB
-* ~~Figure out what to do for USB port CC pins~~
-* Push new files when USB port is fixed
-* Create code for new board
-* ~~Add ATMega pinout to silkscreen~~
-* ~~Add programming header or pads~~
-* Possibly make custom board files for Arduino IDE
+To view what needs to be done and what has been done, check out my [Trello](https://trello.com/b/sij1VVpk/macro-keypad) board!
