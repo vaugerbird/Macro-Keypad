@@ -5,8 +5,9 @@ Features
 ---------
 
 * Features 6 programable macro keys
-* Controlled by ATMega32u4 that can be burned with Arduino bootloader
+* Controlled by ATMega32u4 that can be flashed with Arduino bootloader
 * Uses a USB Type C connector at USB 2.0 speeds
+* Old Pro Micro files are also still included if wanted
 
 Notes
 ------
