@@ -14,7 +14,7 @@
 #define S6 9
 
 void setup() {
-  // Telling the Arduino that the switches are inputs, and the Leds are output //
+  // Telling the Arduino that the switches are inputs //
   pinMode (S1, INPUT_PULLUP);
   pinMode (S2, INPUT_PULLUP);
   pinMode (S3, INPUT_PULLUP);
