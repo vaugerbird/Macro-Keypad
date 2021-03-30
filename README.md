@@ -13,8 +13,3 @@ Notes
 ------
 
 All of the mechanical key switches are all programed in EAGLE as Cherry MX keys or equivalent footprint
-
-
-TODO
-------
-To view what needs to be done and what has been done, check out my [Trello](https://trello.com/b/sij1VVpk/macro-keypad) board!
